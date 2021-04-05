@@ -11,8 +11,8 @@ classes/
 
 # idea
 
-#.idea/
-#*.iml
+.idea/
+*.iml
 *.ipr
 *.iws
 
@@ -30,23 +30,5 @@ bin/
 
 # fabric
 
-#run/
-#run_server/
-
-# Template
-
-template/__pycache__/
-
-.idea/*
-!.idea/modules
-!.idea/runConfigurations/
-!.idea/gradle.xml
-!.idea/misc.xml
-
-!run/
-run/*
-!run/resourcepacks/
-!run/options.txt
-!run_server/
-run_server/*
-!run_server/server.properties
+run/
+run_server/

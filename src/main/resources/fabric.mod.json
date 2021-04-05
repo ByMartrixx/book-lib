@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "template_mod",
+  "id": "booklib",
   "version": "${version}",
 
-  "name": "Template_Mod_Name",
-  "description": "Template_Mod_Name",
+  "name": "Book Lib",
+  "description": "Book Lib",
   "authors": [
     "ByMartrixx"
   ],
   "contact": {
-    "sources": "https://github.com/ByMartrixx/template-mod-dir",
-    "issues": "https://github.com/ByMartrixx/template-mod-dir/issues"
+    "sources": "https://github.com/ByMartrixx/book-lib",
+    "issues": "https://github.com/ByMartrixx/book-lib/issues"
   },
 
   "license": "MIT",
-  "icon": "assets/template_mod/icon.png",
+  "icon": "assets/booklib/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.bymartrixx.templatemodpkg.TemplateModClass"
+      "me.bymartrixx.booklib.BookLib"
     ]
   },
   "mixins": [
