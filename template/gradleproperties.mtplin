@@ -1,0 +1,19 @@
+file: gradle.properties
+
+commands:
+  - placeholder:
+      line: 11
+      count: 1
+  - placeholder:
+      line: 13
+      count: 1
+
+  - insert:
+      line: 19
+      if: cf
+      text: "\n#\tcurse_api_key      = ********-****-****-****-************\n"
+
+  - insert:
+      line: 20
+      if: m
+      text: "\n#\tmodrinth_token     = ****************************************\n"

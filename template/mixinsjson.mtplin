@@ -1,0 +1,11 @@
+file: src/main/resources/¿template_mod¿.mixins.json
+action: create
+if: mx
+
+commands:
+  - insert:
+      line: 1
+      text: "{\n  \"required\": true,\n  \"minVersion\": \"0.8\",\n  \"package\":
+      \"me.bymartrixx.¿templatemodpkg¿.mixin\",\n  \"compatibilityLevel\":
+      \"JAVA_8\",\n  \"mixins\": [\n    \"TestMixin\"\n  ],\n  \"client\": [\n  ],\n  \"injectors\":
+      {\n    \"defaultRequire\": 1\n  }\n}\n"

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "template_mod",
+  "version": "${version}",
+
+  "name": "Template_Mod_Name",
+  "description": "Template_Mod_Name",
+  "authors": [
+    "ByMartrixx"
+  ],
+  "contact": {
+    "sources": "https://github.com/ByMartrixx/template-mod-dir",
+    "issues": "https://github.com/ByMartrixx/template-mod-dir/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/template_mod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.bymartrixx.templatemodpkg.TemplateModClass"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "minecraft": "1.16.x"
+  }
+}
