@@ -14,18 +14,16 @@
   },
 
   "license": "MIT",
-  "icon": "assets/booklib/icon.png",
-
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "me.bymartrixx.booklib.BookLib"
-    ]
+  "custom": {
+    "modmenu": {
+      "badges": ["library"],
+      "links": {
+        "modmenu.discord": "https://discord.gg/PuqmUMaJWk"
+      }
+    }
   },
-  "mixins": [
-  ],
-
   "depends": {
-    "minecraft": "1.16.x"
+    "minecraft": ">=1.16"
   }
 }
