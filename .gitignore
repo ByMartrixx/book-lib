@@ -32,3 +32,6 @@ bin/
 
 run/
 run_server/
+
+# junit
+logs/
